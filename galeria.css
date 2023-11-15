@@ -1,0 +1,56 @@
+
+
+header nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    transition: .3;
+    display: flex;align-items: center;
+}
+header nav a:hover {
+    transform: scale(1.01);
+    color:#001aff;
+}
+header nav a img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.galeria {
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+.galeria h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.galeria #conteiner {
+    gap: 3rem;
+}
+.galeria #conteiner .album{
+    width: 250px;
+    height: 350px;
+}
+.galeria  #conteiner .album img {
+    height: 210px;
+}
+.galeria .album div {
+    justify-content: end;
+}
+.galeria .album div span{ 
+    color: rgba(219, 9, 9, 0.822);
+    text-align: end;
+    font-size: 13px;
+    transition: .2s;
+    cursor: pointer;
+}
+.galeria .album div span:hover {
+    color: red;
+}
+.galeria .album div span:active {
+    color: rgba(209, 76, 76, 0.815);
+}
+.galeria  #conteiner .album h2 {
+    margin-bottom: 30px;
+}
